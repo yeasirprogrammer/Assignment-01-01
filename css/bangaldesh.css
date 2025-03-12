@@ -83,3 +83,31 @@
      font-size: 18px;
       
   }
+  /* pillars-card-01 */
+  .piller-section{
+  
+    max-width:1120px;
+    height: 560px;
+    margin: 0 auto;
+  }
+  .card{
+    display: flex;
+    margin-top: 20px;
+    gap: 24px;
+    
+  }
+  .card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.80);
+  }
+
+  .pillars-card-01{
+      padding: 30px;
+      background-color: rgb(252, 252, 252);
+      box-shadow: 10px 10px 20px rgb(229, 226, 226);
+      border-radius: 16px;
+     
+
+  
+  }
