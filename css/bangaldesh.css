@@ -1,0 +1,44 @@
+/* Universal seletor */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* google font */
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  /* saherd style */
+  .dark-1{
+    color: #0E0E0E;
+  }
+
+  /* nav section */
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    height: 100px; 
+    align-items: center;
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+ .nav-title{
+    font-weight: bold;
+    font-size: 20px;
+ }
+  .nav-btn{
+    color: #006A50;
+    background-color: white;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    
+  }
