@@ -189,12 +189,62 @@
 
  
 .second-card{
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
   max-width:1200px;
   margin: 0 auto;
   background-color: #FFC239;
   margin-top: 20px;
   background-color: rgb(252, 252, 252);
-  box-shadow: 20px 20px 20px 20px rgb(227, 219, 219); 
+  box-shadow: 20px 20px 30px  rgb(227, 219, 219); 
   padding: 25px 24px;
   border-radius: 16px;
+
+ 
+}
+
+/*  */
+.table-section{
+  box-shadow: 30px 20px 30px  rgb(227, 219, 219); 
+  background-color: rgb(252, 252, 252);
+  width:1300px;
+  margin: 0 auto;
+
+}
+.option-titile{
+  margin-left: 50px;
+  margin-top:80px;
+}
+table {
+  width:1250px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top:20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 32px;
+}
+
+th {
+  background-color: #d2ead2;
+  padding: 12px;
+  text-align: left;
+  font-size: 18px;
+  
+}
+
+td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  border: 1px solid grey;
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
 }
