@@ -23,7 +23,7 @@
 .text-justyfi{
   text-align: justify;
 }
-
+ 
   /* nav section */
   .navbar{
     display: flex;
@@ -209,6 +209,7 @@
   background-color: rgb(252, 252, 252);
   width:1300px;
   margin: 0 auto;
+  padding: 25px;
 
 }
 .option-titile{
@@ -247,4 +248,87 @@ select {
   border-radius: 5px;
   border: 1px solid #ccc;
   cursor: pointer;
+}
+.resent-news{
+  max-width: 1220px;
+  height: 402px;
+  margin:0 auto ;
+  margin-top: 30px;
+
+}
+.resent-news-section{
+  display: flex;
+  justify-content:space-around;
+  box-shadow: 30px 20px 30px  rgb(242, 239, 239); 
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  padding: 48px;
+  gap: 36px;
+
+}
+.resent-img{
+  border-radius: 24px;
+
+}
+.resent-title{
+  font-size: 32px;
+  font-weight: bold;
+}
+.resent-btn{
+  border: none;
+  background-color: #006A50;
+  width: 140px;
+  height: 48px;
+  cursor: pointer;
+  color: white;
+  border-radius: 8px;
+}
+.donet-section{
+  justify-content: center;
+  align-items: center;
+  margin-top: 1000px;
+}
+.donet-card-section{
+  display: flex;
+   max-width: 1120px;
+   margin: 0 auto;
+   gap: 50px;
+   
+}
+.donet-content{
+  text-align: center;
+  max-width: 1120px;
+  margin: 0 auto;
+  gap: 50px;
+}
+.donet-card{
+  background-color: #ffffff;
+  box-shadow: 10px 20px 20px 30px rgb(245, 245, 247);
+  width:200px ;
+  height: 50px;
+  border-radius: 16px;
+  padding: 40px;
+  align-items: center;
+
+}
+.donet-card-2{
+background-color: #C6E4D6;
+}
+.input{
+  width: 1032px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border: none;
+  box-shadow: 10px 20px 20px 30px rgb(245, 245, 247);
+}
+.donate-btn{
+  border: none;
+  background-color: #006A50;
+  width: 151px;
+  height: 50px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  
 }
